@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(188, 235, 188);
+    font-family: 'Roboto', sans-serif;
+}
+
+.tittle {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 900;
+    position: relative;
+    top: 8px;
+}
+
+.tittle-box {
+    position: relative;
+    width: 60%;
+    height: 80px;
+    background: rgb(238, 223, 173);
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+    box-shadow: 1px -1px 22px 1px rgba(0,0,0,0.22)
+}
+
+.subtittle {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.timer {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+#tiempoReaccion {
+    font-weight: bold;
+}
+
+.center {
+    position: relative;
+    width: 70%;
+    height: 75vh;
+    background: rgb(240, 234, 211);
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px -1px 22px 1px rgba(0,0,0,0.22);
+}
+
+#forma {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 86, 86);
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    /*box-shadow: 1px -1px 22px 1px rgba(0,0,0,0.22);*/
+}
+
+#forma:hover {
+    cursor: pointer;
+}
+
+.bestTime-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 80px;
+    background: rgb(238, 223, 173);
+    border-radius: 0 0 0 20px;
+    box-shadow: 1px -1px 22px 1px rgba(0,0,0,0.22)
+}
+
+.time-info {
+    font-size: 16px;
+    position: absolute;
+    top: 27px;
+    left: 60px;
+    font-weight: bold;
+}
+
+.trophy {
+    width: 30px;
+    position: relative;
+    left: 20px;
+    top: 22px;
+}
+
+.autor {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
